@@ -1,0 +1,40 @@
+body {
+  width: 700px;
+  height: 700px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.control {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.control .color-picker {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#draw {
+  border-left: 1px solid black;
+  cursor: pointer;
+}
+
+#btn-clear {
+  border: none;
+  border-right: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+body {
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.control {
+    flex: 1;
+    .color-picker {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#draw {
+    border-left: 1px solid black;
+    cursor: pointer;
+}
+
+#btn-clear {
+    border: none;
+    border-right: 1px solid black;
+}
